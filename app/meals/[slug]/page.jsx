@@ -1,7 +1,7 @@
-export default function MealPage({ params }) {
+export default function MealDetailsPage({ params }) {
   return (
     <main>
-      <h1>Meal</h1>
+      <h1>Meal Details</h1>
       <p>{params.slug}</p>
     </main>
   )
