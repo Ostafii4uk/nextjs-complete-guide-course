@@ -1,1 +1,0 @@
-# nextjs-complete-guide-course
