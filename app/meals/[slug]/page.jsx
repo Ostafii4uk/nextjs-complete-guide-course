@@ -29,7 +29,11 @@ export default function MealDetailsPage({ params }) {
     <>
       <header className={styles.header}>
         <div className={styles.image}>
-          <Image src={meal.image} fill />
+          <Image
+            src={`https://ostafiichuk-nextjs-demo-users-image.s3.eu-central-1.amazonaws.com/${image}`}
+            alt={meal.title}
+            fill
+          />
         </div>
         <div className={styles.headerText}>
           <h1>{meal.title}</h1>
